@@ -25,8 +25,8 @@ namespace APIGestionCegep.Logics.DAOs
         /// </summary>
         protected Repository()
         {
-            connexion = new SqlConnection("Server = localhost; Database = Cegep2; User Id=cedric;Password=12345;");
-        }
+            connexion = new SqlConnection("Server=localhost;Database=Cegep2;User Id=cedric; Password=12345; Encrypt=true; TrustServerCertificate=true;");
+        }        
 
         #endregion Constructeurs
 
