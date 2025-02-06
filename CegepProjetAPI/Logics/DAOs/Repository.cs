@@ -1,4 +1,4 @@
-﻿using System.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 
 /// <summary>
 /// Namespace pour les classe de type DAO.
@@ -25,7 +25,7 @@ namespace APIGestionCegep.Logics.DAOs
         /// </summary>
         protected Repository()
         {
-            connexion = new SqlConnection("Server = localhost; Database = Cegep; User Id=Keven;Password=kevenkevenkeven;");
+            connexion = new SqlConnection("Server = localhost; Database = Cegep2; User Id=cedric;Password=12345;");
         }
 
         #endregion Constructeurs
