@@ -87,7 +87,7 @@ namespace CegepProjetAPI.Controllers
         {
             try
             {
-                CegepRepository.Instance.ViderListeCegep();
+                CegepControleur.Instance.ViderListeCegep();
             }
             catch (Exception ex)
             {
