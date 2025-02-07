@@ -33,6 +33,7 @@ namespace APIGestionCegep.Logics.Controleurs
                 {
                     //... on crée l'instance unique...
                     instance = new CegepControleur();
+
                 }
                 //...on retourne l'instance unique.
                 return instance;
